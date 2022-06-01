@@ -1,4 +1,4 @@
-compile = "mvn dependency:resolve & mvn test"
+compile = "mvn test"
 run =  "mvn test"
 
 entrypoint = "Main.java"
