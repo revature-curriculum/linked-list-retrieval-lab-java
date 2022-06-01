@@ -1,5 +1,5 @@
 compile = "mvn dependency:resolve & mvn test"
-run =  "mvn dependency:resolve & mvn test"
+run =  "mvn test"
 
 entrypoint = "Main.java"
 hidden = ["**/*.class"]
