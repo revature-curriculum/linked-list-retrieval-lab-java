@@ -1,5 +1,5 @@
-compile = "javac -classpath .:target/dependency/* -d . $(find . -type f -name '*.java')"
-run = ["java", "-classpath", ".:target/dependency/*", "Main"]
+compile = "mvn dependency:resolve & mvn test"
+run =  "mvn dependency:resolve & mvn test"
 
 entrypoint = "Main.java"
 hidden = ["**/*.class"]
